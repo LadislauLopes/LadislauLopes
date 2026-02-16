@@ -5,34 +5,34 @@
     <strong style="font-size:32px; border-bottom:none; display:inline-block;">Ladislau Lopes</strong>
   </h1>
 
-  <p style="max-width:60ch; color:#c8d6e5; margin-top:0;">Desenvolvo software com foco em qualidade, automação e entrega de valor. Gosto de construir soluções simples para problemas reais e aprender novas tecnologias ao longo do caminho.</p>
+  <p style="max-width:60ch; color:#c8d6e5; margin-top:0;">I build software focused on quality, automation and delivering value. I enjoy creating simple solutions for real problems and learning new technologies along the way.</p>
 
-  <p style="margin:12px 0 6px 0;"><strong style="color:#bfe3ff;">Tech / Ferramentas</strong>: Python • JavaScript • HTML/CSS • Git • Airflow • Selenium • Data</p>
+  <p style="margin:12px 0 6px 0;"><strong style="color:#bfe3ff;">Tech / Tools</strong>: Python • JavaScript • HTML/CSS • Git • Airflow • Selenium • Data</p>
 
-  <p style="margin:6px 0 6px 0;"><strong style="color:#bfe3ff;">Experiência</strong>:
+  <p style="margin:6px 0 6px 0;"><strong style="color:#bfe3ff;">Experience</strong>:
     <span style="display:inline-flex; align-items:center; gap:8px; margin-left:8px;">
-      <a href="https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing" title="Carta de recomendação - Polícia Federal" style="text-decoration:none; color:inherit; display:inline-flex; align-items:center; gap:8px;">
+      <a href="https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing" title="Recommendation letter - Polícia Federal" style="text-decoration:none; color:inherit; display:inline-flex; align-items:center; gap:8px;">
         <img src="./img/Policia%20federal.png" alt="Polícia Federal" style="height:20px; vertical-align:middle;" />
-        <span style="font-size:14px; color:#c8d6e5;">Polícia Federal — 01/fev/2023 — 09/mai/2024</span>
+        <span style="font-size:14px; color:#c8d6e5;">Polícia Federal — 01/Feb/2023 — 09/May/2024</span>
       </a>
     </span>
     <span style="display:inline-flex; align-items:center; gap:8px; margin-left:16px;">
       <img src="./img/Tjac.png" alt="TJAC" style="height:20px; vertical-align:middle;" />
-      <span style="font-size:14px; color:#c8d6e5;">TJAC — 10/mai/2024 — mar/2026</span>
+      <span style="font-size:14px; color:#c8d6e5;">TJAC — 10/May/2024 — Mar/2026</span>
     </span>
   </p>
 
-  <p style="margin:6px 0 12px 0;"><strong style="color:#bfe3ff;">Contato</strong>: 
+  <p style="margin:6px 0 12px 0;"><strong style="color:#bfe3ff;">Contact</strong>: 
     <a href="https://github.com/ladislaulopes" style="margin-right:8px;"><img src="./img/github.png" alt="github" style="height:20px; vertical-align:middle;" /></a>
     <a href="https://www.instagram.com/ladslopes?igsh=cGRmMzI5ZTFmejFq" style="margin-right:8px;"><img src="./img/instagram.png" alt="Instagram" style="height:20px; vertical-align:middle;" /></a>
     <a href="https://www.linkedin.com/in/ladislaulopes/"><img src="./img/linkedin.svg" alt="LinkedIn" style="height:20px; vertical-align:middle;" /></a>
   </p>
 
   <div style="display:flex; gap:16px; align-items:center;">
-    <a href="https://github.com/ladislaulopes" title="Visualizações" style="text-decoration:none; color:inherit;">
+    <a href="https://github.com/ladislaulopes" title="Profile views" style="text-decoration:none; color:inherit;">
       <div style="text-align:center;">
-        <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=0e75b6&style=flat" alt="Visualizações" style="height:22px; display:block; margin:0 auto;" />
-        <div style="font-size:12px; color:#9fb0c8; margin-top:4px;">Visualizações</div>
+        <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" style="height:22px; display:block; margin:0 auto;" />
+        <div style="font-size:12px; color:#9fb0c8; margin-top:4px;">Profile views</div>
       </div>
     </a>
 
