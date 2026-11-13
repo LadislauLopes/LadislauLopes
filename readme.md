@@ -6,9 +6,9 @@
 
 ## O que eu faço no TJAC
 
-Desde maio de 2024 sou desenvolvedor pleno no Tribunal de Justiça do Estado do Acre. Automatizo o tratamento de dados (quais dados, não posso contar), desenho a arquitetura que roda essas automações e desenvolvo chatbots que avisam e respondem a equipe pelo Google Chat.
+Desde maio de 2024 sou desenvolvedor pleno no Tribunal de Justiça do Estado do Acre. Construí do zero a plataforma de automação de dados (ETL + RPA) onde rodam os robôs de coleta e tratamento de dados (quais dados, não posso contar). A ideia central é desacoplar orquestração de execução: o Airflow orquestra, o Docker isola, o Selenoid dá o navegador e o GitLab entrega. Um robô novo é só um repositório novo, sem mexer no Airflow. Também desenvolvo chatbots.
 
-<img src="./img/pipeline-pt.png" alt="Fluxo de trabalho: Selenoid coleta, Python trata, Airflow orquestra, Google Chat entrega com chatbot e avisos. Tudo roda em contêineres Docker, versionado e publicado pelo GitLab." width="100%" />
+<img src="./img/pipeline-pt.svg" alt="Fluxo de trabalho: o Airflow agenda e dispara, o Docker isola cada robô, o Selenoid dá o navegador, o Python coleta, trata e grava, e o Google Chat avisa a equipe. O GitLab CI/CD entrega cada robô com repositório, imagem e deploy próprios." width="100%" />
 
 ## Arcade Builder
 
@@ -37,5 +37,9 @@ Python, JavaScript, HTML e CSS, Git e GitLab, Docker, Apache Airflow, Selenium e
 Estudando agora: TypeScript, NestJS e FastAPI.
 
 <br />
+
+<img src="./img/combo-pt.svg" alt="Controle arcade executando um combo de 9 hits, um golpe por etapa do pipeline: uf4 (Airflow), 4 (Docker), f,F+3 (Selenoid), b1,2 (Python), f3+4,2 (pandas), 2 (PostgreSQL), f,f,F+2+4 (Google Chat)." width="100%" />
+
+<p><a href="https://www.linkedin.com/in/ladislaulopes/">Obrigado por jogar até aqui. Se quiser trocar uma ideia, me chame no LinkedIn.</a></p>
 
 <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Visualiza%C3%A7%C3%B5es%20do%20perfil&color=141924&style=flat-square" alt="Visualizações do perfil" />

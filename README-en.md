@@ -6,9 +6,9 @@
 
 ## What I do at TJAC
 
-Since May 2024 I've been a mid-level developer at the Court of Justice of the State of Acre, Brazil. I automate data processing (I can't say which data), design the architecture these automations run on, and build chatbots that notify and answer the team on Google Chat.
+Since May 2024 I've been a mid-level developer at the Court of Justice of the State of Acre, Brazil. I built from scratch the data automation platform (ETL + RPA) that runs our data collection and processing bots (I can't say which data). The core idea is to decouple orchestration from execution: Airflow orchestrates, Docker isolates, Selenoid provides the browser and GitLab ships. A new bot is just a new repository, with no changes to Airflow. I also build chatbots.
 
-<img src="./img/pipeline-en.png" alt="Workflow: Selenoid collects, Python processes, Airflow orchestrates, Google Chat delivers chatbot replies and alerts. Everything runs in Docker containers, versioned and shipped through GitLab." width="100%" />
+<img src="./img/pipeline-en.svg" alt="Workflow: Airflow schedules and triggers, Docker isolates each bot, Selenoid provides the browser, Python collects, cleans and loads, and Google Chat alerts the team. GitLab CI/CD ships every bot with its own repository, image and deploy." width="100%" />
 
 ## Arcade Builder
 
@@ -37,5 +37,9 @@ Python, JavaScript, HTML and CSS, Git and GitLab, Docker, Apache Airflow, Seleni
 Currently learning: TypeScript, NestJS and FastAPI.
 
 <br />
+
+<img src="./img/combo-en.svg" alt="Arcade controller performing a 9-hit combo, one move per pipeline stage: uf4 (Airflow), 4 (Docker), f,F+3 (Selenoid), b1,2 (Python), f3+4,2 (pandas), 2 (PostgreSQL), f,f,F+2+4 (Google Chat)." width="100%" />
+
+<p><a href="https://www.linkedin.com/in/ladislaulopes/">Thanks for playing this far. If you'd like to talk, reach out on LinkedIn.</a></p>
 
 <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=141924&style=flat-square" alt="Profile views" />

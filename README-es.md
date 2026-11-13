@@ -6,9 +6,9 @@
 
 ## Qué hago en el TJAC
 
-Desde mayo de 2024 soy desarrollador semi-senior en el Tribunal de Justicia del Estado de Acre, Brasil. Automatizo el tratamiento de datos (no puedo contar cuáles), diseño la arquitectura en la que corren esas automatizaciones y desarrollo chatbots que avisan y responden al equipo por Google Chat.
+Desde mayo de 2024 soy desarrollador semi-senior en el Tribunal de Justicia del Estado de Acre, Brasil. Construí desde cero la plataforma de automatización de datos (ETL + RPA) donde corren los robots de recolección y tratamiento de datos (no puedo contar cuáles). La idea central es desacoplar la orquestación de la ejecución: Airflow orquesta, Docker aísla, Selenoid da el navegador y GitLab entrega. Un robot nuevo es solo un repositorio nuevo, sin tocar Airflow. También desarrollo chatbots.
 
-<img src="./img/pipeline-es.png" alt="Flujo de trabajo: Selenoid recolecta, Python trata, Airflow orquesta, Google Chat entrega con chatbot y avisos. Todo corre en contenedores Docker, versionado y publicado con GitLab." width="100%" />
+<img src="./img/pipeline-es.svg" alt="Flujo de trabajo: Airflow agenda y dispara, Docker aísla cada robot, Selenoid da el navegador, Python recolecta, trata y carga, y Google Chat avisa al equipo. GitLab CI/CD entrega cada robot con su repositorio, imagen y deploy." width="100%" />
 
 ## Arcade Builder
 
@@ -37,5 +37,9 @@ Python, JavaScript, HTML y CSS, Git y GitLab, Docker, Apache Airflow, Selenium y
 Estudiando ahora: TypeScript, NestJS y FastAPI.
 
 <br />
+
+<img src="./img/combo-es.svg" alt="Control arcade ejecutando un combo de 9 hits, un golpe por etapa del pipeline: uf4 (Airflow), 4 (Docker), f,F+3 (Selenoid), b1,2 (Python), f3+4,2 (pandas), 2 (PostgreSQL), f,f,F+2+4 (Google Chat)." width="100%" />
+
+<p><a href="https://www.linkedin.com/in/ladislaulopes/">Gracias por jugar hasta aquí. Si quieres conversar, escríbeme por LinkedIn.</a></p>
 
 <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Visitas%20al%20perfil&color=141924&style=flat-square" alt="Visitas al perfil" />
