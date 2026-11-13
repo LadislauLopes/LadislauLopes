@@ -1,47 +1,41 @@
-<div>
-  <img align="right" src="./img/lofi_github.png" alt="Ladislau Lopes" width="240" height="240" style="border-radius:12px; margin-left:20px;" />
+<p align="right"><b>Português</b> · <a href="./README-en.md">English</a> · <a href="./README-es.md">Español</a></p>
 
-  <h1 style="margin:0; font-size:40px; line-height:1.2; border-bottom:none;">
-    Ladislau Lopes
-  </h1>
-  <br>
-  
-  <p style="color:#c8d6e5;">Desenvolvo software com foco em qualidade, automação e entrega de valor. Gosto de construir soluções simples para problemas reais e aprender novas tecnologias ao longo do caminho.</p>
-  
-  <p style="margin-bottom:12px;">
-    <strong style="color:#bfe3ff;">Tech / Ferramentas</strong>:<br>
-    Python • JavaScript • HTML/CSS • Git • Airflow • Selenium • Data
-  </p>
-  
-  <p style="margin-bottom:12px;">
-    <strong style="color:#bfe3ff;">Experiência</strong>:<br>
-    <a href="https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing" title="Carta de recomendação - Polícia Federal" style="text-decoration:none; color:inherit;">
-      <img src="./img/Policia%20federal.png" alt="PF" height="18" width="18" style="vertical-align:middle;" />
-      <span style="font-size:14px; color:#c8d6e5;"> Polícia Federal (fev/23 - mai/24)</span>
-    </a>
-    <br>
-    <span style="display:inline-flex; align-items:center; margin-top:4px;">
-      <img src="./img/Tjac.png" alt="TJAC" height="18" width="18" style="vertical-align:middle;" />
-      <span style="font-size:14px; color:#c8d6e5;"> TJAC (mai/24 - mar/26)</span>
-    </span>
-  </p>
-  
-  <p style="margin-bottom:20px;">
-    <strong style="color:#bfe3ff;">Contato</strong>:<br> 
-    <a href="https://github.com/ladislaulopes" style="margin-right:10px;"><img src="./img/github.png" alt="github" height="20" width="20" /></a>
-    <a href="https://www.instagram.com/ladslopes?igsh=cGRmMzI5ZTFmejFq" style="margin-right:10px;"><img src="./img/instagram.png" alt="Instagram" height="20" width="20" /></a>
-    <a href="https://www.linkedin.com/in/ladislaulopes/"><img src="./img/linkedin.svg" alt="LinkedIn" height="20" width="20" /></a>
-  </p>
-  
-  <div>
-    <a href="https://github.com/ladislaulopes">
-      <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-    </a>
-  </div>
-  
-  <p style="margin-top:20px;">
-    <a href="./readme.md" title="Português" style="text-decoration:none; margin-right:8px;">🇧🇷</a>
-    <a href="./README-en.md" title="English" style="text-decoration:none; margin-right:8px;">🇺🇸</a>
-    <a href="./README-es.md" title="Español" style="text-decoration:none; margin-right:8px;">🇪🇸</a>
-  </p>
-</div>
+<img src="./img/banner-pt.jpg" alt="Ladislau Lopes. Desenvolvedor pleno no TJAC. Automatizo o tratamento de dados com Python, Airflow e Docker, e construo chatbots. Rio Branco, Acre." width="100%" />
+
+<p align="right"><a href="https://www.linkedin.com/in/ladislaulopes/"><b>LinkedIn</b></a> · <a href="https://www.instagram.com/ladslopes/"><b>Instagram</b></a></p>
+
+## O que eu faço no TJAC
+
+Desde maio de 2024 sou desenvolvedor pleno no Tribunal de Justiça do Estado do Acre. Automatizo o tratamento de dados (quais dados, não posso contar), desenho a arquitetura que roda essas automações e desenvolvo chatbots que avisam e respondem a equipe pelo Google Chat.
+
+<img src="./img/pipeline-pt.png" alt="Fluxo de trabalho: Selenoid coleta, Python trata, Airflow orquestra, Google Chat entrega com chatbot e avisos. Tudo roda em contêineres Docker, versionado e publicado pelo GitLab." width="100%" />
+
+## Arcade Builder
+
+<a href="https://arcade-config.pages.dev/"><img src="./img/arcade-builder.jpg" alt="Controle arcade montado em 3D no Arcade Builder, com arte no topo e nas laterais" width="100%" /></a>
+
+Um editor que roda no navegador para planejar a arte de um controle arcade antes de mandar fabricar. Você escolhe a caixa e o layout, sobe as artes e vê o controle montado em 3D, com os furos dos botões, do stick e dos parafusos no lugar certo. Comecei porque ia encomendar o meu e não queria imprimir no escuro; o da imagem é ele.
+
+- 9 modelos de caixa e 37 layouts, com checagem se a alavanca cabe na altura da lateral
+- Arte, texto e logo arrastados direto no 3D, e cores de botões Sanwa sugeridas a partir da própria arte
+- Exporta PNGs em 300 DPI para a gráfica, chapas em DXF e SVG para corte a laser, um vídeo do controle girando e o texto do pedido
+- Um único arquivo HTML, sem servidor: three.js, JSZip, MediaRecorder e IndexedDB, e as imagens não saem do seu computador
+
+**[Testar o Arcade Builder no navegador →](https://arcade-config.pages.dev/)**
+
+## Trajetória
+
+| | Instituição | Período |
+|:-:|---|---|
+| <img src="./img/tjac.png" alt="" width="28" /> | **Tribunal de Justiça do Estado do Acre (TJAC)**<br>Desenvolvedor pleno | mai/2024 – atual |
+| <img src="./img/policia-federal.png" alt="" width="28" /> | **Polícia Federal** · [carta de recomendação](https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing) | fev/2023 – mai/2024 |
+
+## Ferramentas
+
+Python, JavaScript, HTML e CSS, Git e GitLab, Docker, Apache Airflow, Selenium e Selenoid, Google Chat, three.js e Blender.
+
+Estudando agora: TypeScript, NestJS e FastAPI.
+
+<br />
+
+<img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Visualiza%C3%A7%C3%B5es%20do%20perfil&color=141924&style=flat-square" alt="Visualizações do perfil" />

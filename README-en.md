@@ -1,47 +1,41 @@
-<div>
-  <img align="right" src="./img/lofi_github.png" alt="Ladislau Lopes" width="240" height="240" style="border-radius:12px; margin-left:20px;" />
+<p align="right"><a href="./readme.md">Português</a> · <b>English</b> · <a href="./README-es.md">Español</a></p>
 
-  <h1 style="margin:0; font-size:40px; line-height:1.2; border-bottom:none;">
-    Ladislau Lopes
-  </h1>
-  <br>
-  
-  <p style="color:#c8d6e5;">I develop software with a focus on quality, automation, and value delivery. I enjoy building simple solutions to real problems and learning new technologies along the way.</p>
-  
-  <p style="margin-bottom:12px;">
-    <strong style="color:#bfe3ff;">Tech / Tools</strong>:<br>
-    Python • JavaScript • HTML/CSS • Git • Airflow • Selenium • Data
-  </p>
-  
-  <p style="margin-bottom:12px;">
-    <strong style="color:#bfe3ff;">Experience</strong>:<br>
-    <a href="https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing" title="Recommendation Letter - Federal Police" style="text-decoration:none; color:inherit;">
-      <img src="./img/Policia%20federal.png" alt="PF" height="18" width="18" style="vertical-align:middle;" />
-      <span style="font-size:14px; color:#c8d6e5;"> Federal Police (Feb/23 - May/24)</span>
-    </a>
-    <br>
-    <span style="display:inline-flex; align-items:center; margin-top:4px;">
-      <img src="./img/Tjac.png" alt="TJAC" height="18" width="18" style="vertical-align:middle;" />
-      <span style="font-size:14px; color:#c8d6e5;"> TJAC (May/24 - Mar/26)</span>
-    </span>
-  </p>
-  
-  <p style="margin-bottom:20px;">
-    <strong style="color:#bfe3ff;">Contact</strong>:<br> 
-    <a href="https://github.com/ladislaulopes" style="margin-right:10px;"><img src="./img/github.png" alt="github" height="20" width="20" /></a>
-    <a href="https://www.instagram.com/ladslopes?igsh=cGRmMzI5ZTFmejFq" style="margin-right:10px;"><img src="./img/instagram.png" alt="Instagram" height="20" width="20" /></a>
-    <a href="https://www.linkedin.com/in/ladislaulopes/"><img src="./img/linkedin.svg" alt="LinkedIn" height="20" width="20" /></a>
-  </p>
-  
-  <div>
-    <a href="https://github.com/ladislaulopes">
-      <img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-    </a>
-  </div>
-  
-  <p style="margin-top:20px;">
-    <a href="./readme.md" title="Português" style="text-decoration:none; margin-right:8px;">🇧🇷</a>
-    <a href="./README-en.md" title="English" style="text-decoration:none; margin-right:8px;">🇺🇸</a>
-    <a href="./README-es.md" title="Español" style="text-decoration:none; margin-right:8px;">🇪🇸</a>
-  </p>
-</div>
+<img src="./img/banner-en.jpg" alt="Ladislau Lopes. Mid-level developer at TJAC. I automate data processing with Python, Airflow and Docker, and I build chatbots. Rio Branco, Acre, Brazil." width="100%" />
+
+<p align="right"><a href="https://www.linkedin.com/in/ladislaulopes/"><b>LinkedIn</b></a> · <a href="https://www.instagram.com/ladslopes/"><b>Instagram</b></a></p>
+
+## What I do at TJAC
+
+Since May 2024 I've been a mid-level developer at the Court of Justice of the State of Acre, Brazil. I automate data processing (I can't say which data), design the architecture these automations run on, and build chatbots that notify and answer the team on Google Chat.
+
+<img src="./img/pipeline-en.png" alt="Workflow: Selenoid collects, Python processes, Airflow orchestrates, Google Chat delivers chatbot replies and alerts. Everything runs in Docker containers, versioned and shipped through GitLab." width="100%" />
+
+## Arcade Builder
+
+<a href="https://arcade-config.pages.dev/"><img src="./img/arcade-builder.jpg" alt="Arcade controller assembled in 3D in Arcade Builder, with artwork on the top and sides" width="100%" /></a>
+
+A browser-based editor for planning the artwork of an arcade controller before having it made. Pick the case and layout, upload your art and see the controller assembled in 3D, with the button, stick and screw holes in the right place. I started it because I was about to order my own and didn't want to print blind; the one in the picture is mine.
+
+- 9 case models and 37 layouts, plus a check that the lever fits the side height
+- Artwork, text and logos dragged straight onto the 3D model, and Sanwa button colors suggested from the art itself
+- Exports 300 DPI PNGs for printing, DXF and SVG panels for laser cutting, a turntable video and the order text
+- A single HTML file with no server: three.js, JSZip, MediaRecorder and IndexedDB, and your images never leave your computer
+
+**[Try Arcade Builder in your browser →](https://arcade-config.pages.dev/)**
+
+## Experience
+
+| | Organization | Period |
+|:-:|---|---|
+| <img src="./img/tjac.png" alt="" width="28" /> | **Court of Justice of the State of Acre (TJAC)**<br>Mid-level developer | May 2024 – present |
+| <img src="./img/policia-federal.png" alt="" width="28" /> | **Brazilian Federal Police** · [letter of recommendation](https://drive.google.com/file/d/1USAiIS-lYw2fcdw0B1r2d661BG39Q-qp/view?usp=sharing) | Feb 2023 – May 2024 |
+
+## Tools
+
+Python, JavaScript, HTML and CSS, Git and GitLab, Docker, Apache Airflow, Selenium and Selenoid, Google Chat, three.js and Blender.
+
+Currently learning: TypeScript, NestJS and FastAPI.
+
+<br />
+
+<img src="https://komarev.com/ghpvc/?username=ladislaulopes&label=Profile%20views&color=141924&style=flat-square" alt="Profile views" />
